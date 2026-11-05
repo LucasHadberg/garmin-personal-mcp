@@ -1,0 +1,14 @@
+{
+  "name": "garmin-personal-mcp",
+  "version": "1.0.0",
+  "description": "Private, read-only MCP server for your own Garmin Connect data, running on Cloudflare Workers.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/oauth-and-tools.test.mjs && node test/cache.test.mjs && node test/shapes.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
